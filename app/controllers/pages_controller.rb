@@ -10,7 +10,7 @@ class PagesController < ApplicationController
   end
 
   def Take_Survey
-
+	@title = "Take Survey"
   end 
 
   def Survey_Admin

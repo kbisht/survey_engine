@@ -1,16 +1,15 @@
-<html>
-<head>
-<title> <%= @title %> | Survey Engine </title>
-</head>
-<body>
+
 <h1>Survey Engine: Help</h1>
 <p>
-The  <a href="Home">home page </a> has following links:
+The  <%=link_to "home page", home_path, :class => "home link" %> has following links:
 
-1 - Take survey   : Click on this link to take pre-existing surveys.
-2 - Survey Admin  : Click here to edit a survey. One needs to know the survey ID for editing a survey.
-3 - Survey Result : Click here to view result of surveys.  One needs to know the survey ID for viewing result.
+
+<ul>
+<li><%= link_to "Take Survey", take_survey_path, :class => "take_survey link" %> : : Click on this link to take pre-existing surveys.</li>
+<li><%= link_to "Survey Administration", "#" , :class => "admin_survey link" %> : Click here to edit a survey. One needs to know the survey ID for editing a survey. </li>
+<li><%= link_to "View Survey Result", view_result_path , :class => "view_result link" %> : Click here to view result of surveys.  One needs to know the survey ID for viewing result.</li>
+
+</ul>
+
 
 </p>
-</body>
-</html>
