@@ -1,5 +1,8 @@
 SurveyEngine::Application.routes.draw do
  
+  get "users/new"
+
+  match '/signup'  ,      :to => 'users#new'
   match '/contact' ,      :to => 'pages#Contact'
   match '/about'   ,      :to => 'pages#About'
   match '/help'    ,      :to => 'pages#Help'
@@ -11,15 +14,11 @@ SurveyEngine::Application.routes.draw do
   root :to => 'pages#Home'
   	 	
 
-  get "pages/test"
-
-  get "pages/Home"
-
-  get "pages/Help"
-
-  get "pages/Take_Survey"
-
-  get "pages/View_Result"
+  #get "pages/test"
+  #get "pages/Home"
+  #get "pages/Help"
+  #get "pages/Take_Survey"
+  #get "pages/View_Result"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
