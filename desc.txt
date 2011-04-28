@@ -1,0 +1,35 @@
+project 4
+
+DAtabase can be anything 
+- file
+- ideally SQL - MySql, SQLite
+
+The tables for the database
+Survey Table
+	Survey Number (key)
+	Survey NAme 
+	Survey Description 
+
+Question table
+
+	Survey number (key)
+	Question number  (key)
+	Question text
+
+
+Result table
+ 
+	Survey number ( key )
+	question number  (key)
+	result number  (key)
+	result count
+	
+Result table version 2
+
+	Survey number (key)
+	question number (key)
+	result1 count 
+	result2 count 
+	result3 count 
+	result4 count 
+	result5 count 

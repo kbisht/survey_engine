@@ -1,7 +1,13 @@
 SurveyEngine::Application.routes.draw do
+  get "pages/test"
+
   get "pages/Home"
 
   get "pages/Help"
+
+  get "pages/Take_Survey"
+
+  get "pages/View_Result"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

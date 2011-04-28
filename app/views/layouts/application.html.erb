@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>SurveyEngine</title>
-  <%= stylesheet_link_tag :all %>
-  <%= javascript_include_tag :defaults %>
-  <%= csrf_meta_tag %>
+<title> <%= @title %> | Survey Engine </title>
+<%= csrf_meta_tag %>
+<%= render 'layouts/stylesheets' %>
+
 </head>
+
 <body>
+<div class="container">
 
+<br></br><br></br>
+<%= render 'layouts/header' %>
+<br></br><br></br><br></br>
+
+<section class="round">
 <%= yield %>
-
+</section>
+<%=  render 'layouts/footer'%>
+</div>
 </body>
+
+
 </html>
