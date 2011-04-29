@@ -1,7 +1,9 @@
 <header>
 <nav class="round">
 
-<%= link_to "Home", home_path %> &nbsp &nbsp &nbsp &nbsp <%= link_to "Help", help_path %> &nbsp &nbsp &nbsp &nbsp  <%= link_to "Sign in", signup_path %>
+<%= link_to "Home", home_path %> &nbsp &nbsp &nbsp &nbsp <% if signed_in? %> <%= link_to "Profile", current_user %> &nbsp &nbsp &nbsp &nbsp <% end %> <%= link_to "Help", help_path %> &nbsp &nbsp &nbsp &nbsp  <% if signed_in? %>  <%= link_to "Sign out", signout_path, :method => :delete %>
+<% else %> <%= link_to "Sign in", signin_path %> <% end %>
+
 
 </nav>
 </header>
