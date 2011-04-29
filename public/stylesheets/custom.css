@@ -48,5 +48,20 @@ background-color: #FFFFDE;
 padding: 0 .7em;
 white-space: nowrap;
 }
+table.profile {
+width: 100%;
+margin-bottom: 0;
+}
+td.main {
+width: 70%;
+padding: 1em;
+}
+td.sidebar {
+width: 30%;
+padding: 1em;
+vertical-align: top;
+background: #ffc;
+}
+
 
 
