@@ -1,0 +1,428 @@
+    1  tty
+    2  sudo apt-get update
+    3  sudo apt-get install build-essential git-core curl
+    4  history
+    5  bash << (curl http://rvm.beginrescueend.com/releases/rvm-install-head)
+    6  bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )
+    7  bash <<( curl http://rvm.beginrescueend.com/releases/rvm-install-head )
+    8  sudo apt-get install build-essential git-core curl
+    9  bash <<( curl http://rvm.beginrescueend.com/releases/rvm-install-head )
+   10  bash << ( curl http://rvm.beginrescueend.com/releases/rvm-install-head )
+   11  bash <<(curl http://rvm.beginrescueend.com/releases/rvm-install-head)
+   12  bash < <(curl -s https://rvm.beginrescueend.com/install/rvm)
+   13  clear
+   14  rvm
+   15  rvm update
+   16  . ~/.bashrc
+   17  rvm notes
+   18  echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"' >> ~/.bashrc 
+   19  . ~/.bashrc
+   20  rvm notes
+   21  sudo aptitude install build-essential bison openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf
+   22  sudo apt-get install build-essential bison openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf
+   23  sudo aptitude install build-essential bison openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf
+   24  rvm install 1.9.2
+   25  history
+   26  rvm -ver
+   27  rvm version
+   28  ruby -v
+   29  rvm use 1.9.2
+   30  ruby 0v
+   31  ruby -v
+   32  rvm --default use 1.9.2
+   33  gem install rails
+   34  sudo mkdir /mnt/study
+   35  sudo mount -t vboxsf Study /mnt/study
+   36  sudo mount vboxsf -t Study /mnt/study
+   37  sudo mount vboxsf -t study /mnt/study
+   38  sudo mount vboxsf -w Study /mnt/study
+   39  sudo mount vboxsf -t Study /mnt/study
+   40  sudo mount vboxsf -t study /mnt/study
+   41  sudo mount vboxsf study /mnt/study
+   42  sudo mount vboxsf -w study /mnt/study
+   43  sudo mount vboxsf -t study /mnt/study
+   44  history
+   45  sudo mount vboxsf -t study /mnt/study
+   46  sudo mount vboxsf -t Study /mnt/study
+   47  sudo mount -t vboxsf  Study /mnt/study
+   48  sudo mount  vboxsf  Study /mnt/study
+   49  sudo mount -t vboxsf  Study /mnt/study
+   50  sudo mount -t vboxsf Study /mnt/study
+   51  clear
+   52  sudo mount -t vboxsf Study /mnt/study
+   53  clear
+   54  sudo mount.vboxsf Study /mnt/Study
+   55  sudo mount vboxsf Study /mnt/Study
+   56  sudo mount -t vboxsf Study /mnt/Study
+   57  clera
+   58  cellarclaer
+   59  clear
+   60  sudo mount -t vboxsf Study /mnt/study
+   61  cd /mtn
+   62  cd /mnt
+   63  ls
+   64  sudo mount -t vboxsf Study study
+   65  sudo mount.vboxsf Study study
+   66  mount -t vboxsf Study /mnt/study
+   67  sudo mount -t vboxsf Study /mnt/study
+   68  ruby -v
+   69  rail 0v
+   70  rail -v
+   71  rail -ver
+   72  ruby -v
+   73  history
+   74  rail
+   75  rvm -ver
+   76  rvm -v
+   77  ruby -v
+   78  clear
+   79  sdsd
+   80  clera
+   81  clear
+   82  vim
+   83  vim test
+   84  sudo apt-get install gvim
+   85  sudo aptitude install  vim-gnome
+   86  gvim tes
+   87  clear
+   88  vim test
+   89  ls
+   90  mkdir CS441
+   91  cd CS441; mkdir proj4
+   92  ls
+   93  pwd
+   94  cd..
+   95  cd .
+   96  cd ..
+   97  pwd
+   98  mkdir rails_project
+   99  ls
+  100  man rails
+  101  rails
+  102  rvm
+  103  rvm --usage
+  104  rvm usage
+  105  rvm --create
+  106  rvm list known
+  107  rvm --create use 1.9.2@rails_projecty
+  108  rvm --create use 1.9.2@rails_project
+  109  rvm --help
+  110  clear
+  111  rvm --help
+  112  clear
+  113  which gem
+  114  rails -v
+  115  gem install rails
+  116  pwd
+  117  pwd
+  118  ls
+  119  man ren
+  120  man rename
+  121  mv
+  122  ,am ,v
+  123  man mc
+  124  man mv
+  125  rename
+  126  man rename
+  127  ls
+  128  mv rails_project rails_projects
+  129  ls
+  130  sudo mount -t vboxsf Study /mnt/study
+  131  clear
+  132  ls
+  133  cd rails_projects
+  134  ls
+  135  ls -l
+  136  clear
+  137  man ln
+  138  ln -s /mnt/study studydrive
+  139  ls
+  140  ln -s /mnt/study studydrive
+  141  man ls
+  142  man ln
+  143  ln -s /mnt/study 
+  144  man ln
+  145  clcear
+  146  clear
+  147  ls -l
+  148  rails new first_app
+  149  cd firstapp
+  150  cd first_app
+  151  man mater
+  152  lexit
+  153  exit
+  154  shutdown
+  155  shutdown --help
+  156  shutdown -P
+  157  shutdown --help
+  158  shutdown -h
+  159  shutdown -h 00
+  160  sudo shutdown -h 00
+  161  man lsmod
+  162  lsmod | grep i2c_piix4
+  163  sudo gvim /etc/modprobe.d/blacklist.conf
+  164  exit
+  165  man mount.vboxsf
+  166  mount.vboxsf
+  167  ls /etc/fstab
+  168  cd /etc
+  169  cd fstab
+  170  ls
+  171  root gvim fstab
+  172  sudo  gvim fstab
+  173  sudo  gvim rc.local
+  174  cd rails_project
+  175  ls
+  176  cd first_app
+  177  mount -t vboxsf Study /mnt/study
+  178  sud omount -t vboxsf Study /mnt/study
+  179  sudo mount -t vboxsf Study /mnt/study
+  180  man mate
+  181  vim Gemfil
+  182  vim Gemfile
+  183  exit
+  184  cd first_app
+  185  ls
+  186  history
+  187  history < test123
+  188  history > test123
+  189  vim test123
+  190  delete test123
+  191  man rm
+  192  rm test123
+  193  ls
+  194  bundle install
+  195  bundle show mail
+  196  history > test123
+  197  vim test123
+  198  rails server
+  199  git
+  200  git --version
+  201  git config --global user.name "kumar"
+  202  git config --global user.email bisht.saurabh@gmail.com 
+  203  git config --global alias.cot checkout
+  204  git init 
+  205  ls
+  206  ls *.git
+  207  pws
+  208  pwd
+  209  cd .git
+  210  cd ..
+  211  ls
+  212  ls -l
+  213  rm -rf .git
+  214  ls
+  215  cd .git
+  216  cd rails_project
+  217  cd rails_projects
+  218  ls
+  219  cd first_app
+  220  git init
+  221  ls
+  222  ls -l
+  223  ls test
+  224  vim test123
+  225  clear
+  226  ls -l
+  227  vim .gitignore
+  228  git add.
+  229  git add .
+  230  git status
+  231  got cot -m "initial commit"
+  232  git cot -m "initial commit"
+  233  git commit -m 'initial commit"
+  234  git commit -m "initial commit"
+  235  got log
+  236  git log
+  237  cd ~/.ssh
+  238  ssh-keygen -t rsa -C "ks.bisht@hotmail.com"
+  239  ls  ~/.ssh/
+  240  gedit  ~/.ssh/id_rsa.pub
+  241  git remote add origin git@github.com:kbisht/first_app.git
+  242  git push origin master
+  243  ls
+  244  git remote add origin git@github.com:kbisht/first_app.git
+  245  git push origin master
+  246  refresh
+  247  clear
+  248  git config --global user.email ks.bisht@hotmail.com
+  249  git remote add origin git@github.com:kbisht/first_app.git
+  250  git push origin master
+  251  git branch
+  252  git checkout -b modify-README
+  253  man git checkout
+  254  git branch
+  255  git mv README README.markdown
+  256  mate README.markdown
+  257  gvim README.markdown
+  258  git cot -a -m "change readme file test"
+  259  git commit -a -m "change readme file test"
+  260  git cot master
+  261  git branch
+  262  git merge modify-README
+  263  git branch -d modify-README
+  264  git push
+  265  gem install heroku
+  266  heroku keys:add
+  267  heroku create 
+  268  git push heroku master
+  269  bundle install
+  270  git remote add origin git@github.com:kbisht/first_app.git
+  271  git push
+  272  git push heroku master
+  273  heroku open
+  274  heroku surveykbisht.heroku.com
+  275  heroku rename surveykbisht
+  276  cd ..
+  277  rails new demo_app
+  278  cd demo_app
+  279  gvim Gemfile
+  280  bundle instal
+  281  bundle install
+  282  git init
+  283  git add .
+  284  git commit -m "Initial commit"
+  285  rails generate scaffold User id:string password:string
+  286  rake db:migrate
+  287  rake -T 
+  288  rails s
+  289  cd rails_projects
+  290  ls
+  291  cd confog
+  292  cd config
+  293  ls
+  294  vim routes.rb
+  295  rake --help
+  296  rails --help
+  297  scaffold --help
+  298  nautilus 
+  299  man naitulus
+  300  man nautilus
+  301  cd rails_projects
+  302  ls
+  303  rails new survey_engine -T
+  304  cd survey_engine
+  305  mate Gemfile
+  306  gvim Gemfile
+  307  bundle install 
+  308  bundle show rspec
+  309  rails generate rspec:install
+  310  git init
+  311  git add .
+  312  git commit -m "Initial commit"
+  313  gvim README
+  314  gedit README
+  315  git commit -m "Initial commit"
+  316  git mv README README.markdown
+  317  git commit -a -m "README with title"
+  318  git remote add origin git@github.com:kbisht/survey_engine.git
+  319  git push origin master
+  320  heroku create 
+  321  git push heroku master
+  322  rails console
+  323  cd rails_projects
+  324  cd survey_engine/
+  325  rails console
+  326  clear
+  327  rails server
+  328  cd rails_projects
+  329  cd survey_engine/
+  330  rails server
+  331  git add .
+  332  git commit -a -m "CSS and front page "
+  333  git push
+  334  rails server
+  335  tail -f log/development.log
+  336  cd rails_projects
+  337  cd survey_engine/
+  338  rails server
+  339  git commit -am "default page set with link working"
+  340  git add .
+  341  git commit -am "default page set with link working"
+  342  git push
+  343  rails generate controller Users new
+  344  rm -rf spec/views
+  345  rm -rf spec/helpers
+  346  rails server
+  347  it add .
+  348  git add .
+  349  git commit -am "user controller created"
+  350  git push
+  351  git push heroku
+  352  heroku open
+  353  git status
+  354  git checkout master
+  355  git checkout -b modeling-users
+  356  git status
+  357  git
+  358  git show
+  359  clear
+  360  git
+  361  git show
+  362  clear
+  363  git status
+  364  git
+  365  git checkout
+  366  git checkout modeling-users
+  367  git branch
+  368  clear
+  369  history
+  370  git branch
+  371  clear
+  372  rails generate model User name:string email:string
+  373  rake db:migrate
+  374  bundle install
+  375  annotate
+  376  clear;rails console --sandbox
+  377  clear
+  378  rails console --sandbox
+  379  clear
+  380  rails console --sandbox
+  381  man per;
+  382  man perl
+  383  perl -v
+  384  clear
+  385  cd rails_projects
+  386  cd survey_engine
+  387  rails generate migrate add_email_uniqueness_index
+  388  rails generate migration add_email_uniqueness_index
+  389  rake db:migrate
+  390  git add .
+  391  git push
+  392  git push 
+  393  rails console
+  394  rails server
+  395  rails console
+  396  clear
+  397  rails server
+  398  rails console
+  399  rails console -sandbox
+  400  rails console --sandbox
+  401  clear
+  402  rails console --sandbox
+  403  rake db:migrate
+  404  rails console --sandbox
+  405  clear
+  406  rake db:migrate
+  407  rails console --sandbox
+  408  clear
+  409  rake db:migrate
+  410  rake db:rollback
+  411  rake db:migrate
+  412  rails console --sandbox
+  413  rails console
+  414  git add .
+  415  git commit -am "finished with first cut of the user model"
+  416  git pusk
+  417  git push
+  418  git commit -am "finished with first cut of the user model"
+  419  git push
+  420  got branches
+  421  got branch
+  422  git branch
+  423  git push
+  424  git status
+  425  history 
+  426  history | kbtest
+  427  history < kbtest.txt
+  428  history > kbtest.txt
