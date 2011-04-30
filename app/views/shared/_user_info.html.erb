@@ -1,0 +1,13 @@
+<div class="user_info">
+<a href="<%= user_path(current_user) %>">
+<br></br>
+<span class="user_name">
+<b>User: </b><%= current_user.name %>
+</span>
+<br></br>
+<span class="microposts">
+<b>No. of Surveys: </b><%= pluralize(current_user.user_surveys.count, "survey") %>
+</span>
+</a>
+</div>
+

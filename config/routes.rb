@@ -3,14 +3,13 @@ SurveyEngine::Application.routes.draw do
 #  get "sessions/new"
   resources :users
   resources :sessions, :only => [:new, :create, :destroy]
-  resources :user_surveys, :only => [:create, :destroy, :update] 
+  resources :user_surveys
  
   match '/signup', :to => 'users#new'
   match '/signin', :to => 'sessions#new'
   match '/signout', :to => 'sessions#destroy'
  	
 
-  match '/signup'  ,      :to => 'users#new'
   match '/contact' ,      :to => 'pages#Contact'
   match '/about'   ,      :to => 'pages#About'
   match '/help'    ,      :to => 'pages#Help'
