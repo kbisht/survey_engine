@@ -10,13 +10,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110429224306) do
+ActiveRecord::Schema.define(:version => 20110430012525) do
 
   create_table "user_surveys", :force => true do |t|
     t.integer  "surveyID"
     t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "description"
   end
 
   add_index "user_surveys", ["user_id"], :name => "index_user_surveys_on_user_id"

@@ -1,5 +1,5 @@
 class UserSurvey < ActiveRecord::Base
-attr_accessible :surveyID
+attr_accessible :surveyID, :description
 
 belongs_to :user
 

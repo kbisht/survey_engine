@@ -4,6 +4,16 @@
 <span class="timestamp">
 Posted <%= time_ago_in_words(user_survey.created_at) %> ago.
 </span>
+
 </td>
+<% if current_user?(user_survey.user) %>
+<td>
+<%= link_to "delete", user_survey, :method => :delete,
+:confirm => "You sure?",
+:title => user_survey.content %>
+</td>
+<% end %>
+
+
 </tr>
 

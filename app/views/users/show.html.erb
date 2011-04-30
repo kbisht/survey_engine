@@ -1,30 +1,26 @@
 
 <table class="profile" summary="Profile information">
 <tr>
-<td class="main">
-<h1>
+	<td class="main">
+		<h2>
+		<%= @user.name %> : Survey Admin 
+		</h2>
+		<br></br>
 
+<%= link_to "Survey Creation", surveycreate_path %> &nbsp &nbsp &nbsp &nbsp <%= link_to "Question Administation", "#" %> &nbsp &nbsp &nbsp &nbsp <%= link_to "Survey Deletion", "#" %> <br></br>
 
-<%= @user.email %>
+		<% unless @user.user_surveys.empty? %>
+		<table class="user_surveys" summary="User  Surveys">
+		<%= render @user_surveys %>
+		</table>
+		<% end %>
+	</td>
 
-
-
-<% unless @user.user_surveys.empty? %>
-<table class="user_surveys" summary="User  Surveys">
-<%= render @user_surveys %>
-</table>
-
-<% end %>
-
-
-
-</h1>
-</td>
-<td class="sidebar round">
-<strong>Name</strong> <%= @user.name %> <br />
-<strong>Name</strong>  <%= @user.email %>  <br />
-<strong>URL</strong> <%= link_to user_path(@user), @user %>
-</td>
+	<td class="sidebar round">
+		<strong>Name</strong> <%= @user.name %> <br />
+		<strong>Name</strong>  <%= @user.email %>  <br />
+		<strong>URL</strong> <%= link_to user_path(@user), @user %>
+	</td>
 </tr>
 </table>
 

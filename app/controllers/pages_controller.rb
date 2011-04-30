@@ -3,6 +3,9 @@ class PagesController < ApplicationController
   def Home
 
 	@title = "HOME"
+	@user_survey = UserSurvey.new if signed_in?
+
+
   end
 
   def Help
@@ -28,5 +31,10 @@ class PagesController < ApplicationController
   def Contact
    
   end
+
+  def Survey_Create
+   @user_survey = UserSurvey.new if signed_in?
+  end	
+  
 	
 end

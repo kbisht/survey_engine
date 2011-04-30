@@ -7,7 +7,8 @@ Click on "Help" for any information. <br></br> <br></br>
 
 <ul>
 <li><%= link_to "Take Survey", take_survey_path, :class => "take_survey link" %></li>
-<li><%= link_to "Survey Administration", "#" , :class => "admin_survey link" %></li>
+<li> <% if signed_in? %> <%= link_to "Survey Administration", current_user  %> <% else %>
+<%= link_to "Survey Administration", signin_path , :class => "admin_survey link" %>  <% end %> </li>
 <li><%= link_to "View Survey Result", view_result_path , :class => "view_result link" %></li>
 
 </ul>
