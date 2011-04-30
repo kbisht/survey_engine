@@ -4,8 +4,6 @@ class PagesController < ApplicationController
 
 	@title = "HOME"
 	@user_survey = UserSurvey.new if signed_in?
-
-
   end
 
   def Help

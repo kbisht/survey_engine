@@ -1,2 +1,17 @@
-<h1>Pages#Take Survey</h1>
-<p>Find me in app/views/pages/Take_Survey.html.erb</p>
+<h1>Take Survey</h1>
+
+
+<table class="profile" summary="Profile information">
+<tr>
+	<td class="main">		
+
+		<% unless current_user.user_surveys.empty? %>
+		<table class="user_surveys" summary="User  Surveys">
+		<%= render current_user.user_surveys %>
+		</table>
+		<% end %>
+	</td>
+
+	
+</tr>
+</table>
