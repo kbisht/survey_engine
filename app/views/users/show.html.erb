@@ -3,12 +3,26 @@
 <tr>
 <td class="main">
 <h1>
- <%= @user.email %>,
-<%= @user.name %>
+
+
+<%= @user.email %>
+
+
+
+<% unless @user.user_surveys.empty? %>
+<table class="user_surveys" summary="User  Surveys">
+<%= render @user_surveys %>
+</table>
+
+<% end %>
+
+
+
 </h1>
 </td>
 <td class="sidebar round">
-<strong>Name</strong> <%= @user.name %><br />
+<strong>Name</strong> <%= @user.name %> <br />
+<strong>Name</strong>  <%= @user.email %>  <br />
 <strong>URL</strong> <%= link_to user_path(@user), @user %>
 </td>
 </tr>
