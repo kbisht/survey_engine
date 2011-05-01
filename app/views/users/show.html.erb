@@ -7,7 +7,7 @@
 		</h2>
 		<br></br>
 
-<%= link_to "Survey Creation", surveycreate_path %> &nbsp &nbsp &nbsp &nbsp <%= link_to "Question Administation", "#" %> &nbsp &nbsp &nbsp &nbsp <%= link_to "Survey Deletion", "#" %> <br></br>
+<%= link_to "Survey Creation", surveycreate_path %> &nbsp &nbsp &nbsp &nbsp <%= link_to "Question Administation", questioncreate_path %> &nbsp &nbsp &nbsp &nbsp <%= link_to "Survey Deletion", "#" %> <br></br>
 
 		<% unless @user.user_surveys.empty? %>
 		<table class="user_surveys" summary="User  Surveys">

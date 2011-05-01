@@ -3,7 +3,7 @@ class PagesController < ApplicationController
   def Home
 
 	@title = "HOME"
-	@user_survey = UserSurvey.new if signed_in?
+	@user_survey = UserSurvey.new if signed_in?	
   end
 
   def Help

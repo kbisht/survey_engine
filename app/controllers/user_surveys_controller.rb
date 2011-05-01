@@ -5,6 +5,7 @@ class UserSurveysController < ApplicationController
 		@user_survey = current_user.user_surveys.build(params[:user_survey])
 		if @user_survey.save
 		flash[:success] = "Survey skelton created!"
+		
 		redirect_to surveycreate_path # to do: redirect to question creation
 		else
 		flash[:success] = "Try Again !!"
@@ -26,6 +27,14 @@ class UserSurveysController < ApplicationController
 		@title = "All Surveys"
 		@user_surveys = UserSurvey.paginate(:page => params[:page])
 	end
+
+
+	 def show
+	 	@user_survey = UserSurvey.find(params[:id])
+		@questions = @user_survey.questions.paginate(:page => params[:page] )
+		@title = @user_survey.id
+  	 end
+
 
 	private
 		def authorized_user

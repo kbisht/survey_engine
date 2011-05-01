@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110430093050) do
+ActiveRecord::Schema.define(:version => 20110430203627) do
 
   create_table "questions", :force => true do |t|
     t.string   "description"
@@ -24,6 +24,8 @@ ActiveRecord::Schema.define(:version => 20110430093050) do
     t.string   "op5"
     t.integer  "ans"
   end
+
+  add_index "questions", ["user_survey_id"], :name => "index_questions_on_user_survey_id"
 
   create_table "results", :force => true do |t|
     t.integer  "user_survey_id"
