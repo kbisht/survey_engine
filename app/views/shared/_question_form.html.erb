@@ -1,0 +1,53 @@
+<%= form_for @question do |f| %>
+
+<%= render 'shared/error_messages', :object => f.object %>
+
+<div class="field">
+
+
+<%= f.label :description %><br />
+<%= f.text_area :description %>
+
+
+<div class="field">
+<%= f.label :survey_id %><br />
+<%= f.text_field :user_survey_id %>
+</div>
+
+<div class="field">
+<%= f.label :option_1 %><br />
+<%= f.text_field :op1 %>
+</div>
+
+<div class="field">
+<%= f.label :option_2 %><br />
+<%= f.text_field :op2 %>
+</div>
+
+<div class="field">
+<%= f.label :option_3 %><br />
+<%= f.text_field :op3 %>
+</div>
+
+<div class="field">
+<%= f.label :option_4 %><br />
+<%= f.text_field :op4 %>
+</div>
+
+<div class="field">
+<%= f.label :option_5 %><br />
+<%= f.text_field :op5 %>
+</div>
+
+<div class="field">
+<%= f.label :answer %><br />
+<%= f.text_field :ans %>
+</div>
+
+</div>
+<div class="actions">
+<%= f.submit "Submit" %>
+</div>
+
+<% end %>
+

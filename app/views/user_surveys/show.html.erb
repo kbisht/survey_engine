@@ -1,0 +1,20 @@
+
+<table class="profile" summary="Profile information">
+<tr>
+	<td class="main">
+		<h2>
+		Survey ID :<%= @user_survey.id %>  
+		question count: <%= @user_survey.questions.count %>
+     		 id : <%= @user_survey.questions.first.id %>
+		</h2>
+		<br></br>
+
+		<% unless @user_survey.questions.empty? %>
+		<table class="user_surveys" summary="User  Surveys">
+		<%= render @user_survey.questions %>
+		</table>
+		<% end %>
+	</td>
+</tr>
+</table>
+

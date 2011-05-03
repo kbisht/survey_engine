@@ -1,0 +1,12 @@
+<h1>All Surveys</h1>
+<h3> Sign in to create new ... </h3>
+<%= will_paginate %>
+<ul class="users">
+<% @user_surveys.each do |user_survey | %>
+<li>
+<%= link_to user_survey.description, user_survey %>  
+</li>
+<% end %>
+</ul>
+<%= will_paginate %>
+
