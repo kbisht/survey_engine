@@ -7,6 +7,17 @@ SurveyEngine::Application.routes.draw do
   resource :questions
   resource :results 	
  
+ # resources :user_surveys do
+  #   resources :results
+  #end
+	#resources :user_surveys do
+		resources :questions do
+		    resources :results
+		end	
+	#end
+
+  #match 'user_surveys/:id/takesurvey' => 'user_surveys#takesurvey', :as => :takesurvey 
+
   match '/signup', :to => 'users#new'
   match '/signin', :to => 'sessions#new'
   match '/signout', :to => 'sessions#destroy'

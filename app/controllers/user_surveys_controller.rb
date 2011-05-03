@@ -35,6 +35,12 @@ class UserSurveysController < ApplicationController
 		@title = @user_survey.id
   	 end
 
+	
+
+#	def takesurvey
+
+		
+#	end 	
 
 	private
 		def authorized_user
